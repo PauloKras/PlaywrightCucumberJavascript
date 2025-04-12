@@ -22,7 +22,7 @@ BeforeStep({tags: "@smoke"},async()=>{
 //})
 
 AfterStep({tags: "@smoke"},async()=>{
-    //console.log("AfterStep Hooks")
+    console.log("AfterStep Hooks ~~~~~~~~~~~~~~~~~~~~~~~~~~")
 })
 
 //AfterAll(async()=>{
