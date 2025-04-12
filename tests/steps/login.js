@@ -50,7 +50,7 @@ When('providing valid username an password', async function () {
 When('providing valid username as {string} an password as {string}', async function (name, password) {
     setDefaultTimeout(10000)
     await page.locator("//input[@name='userName']").fill(name)
-    await page.locator("//input[@name='password']").fill(password)
+    await page.locator("//input[@name='passwordxxxxxxx']").fill(password)
 })
 
 Then('click login button', async function () {
